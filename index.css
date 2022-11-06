@@ -1,15 +1,63 @@
-body {
+/* Import fonts here*/
+@font-face {
+  font-family: OptimusPrinceps;
+  src: url(OptimusPrinceps.ttf);
+}
+
+.header {
+  position:sticky;
   background-color: black;
-  color: aliceblue;
-  font-family: Arial, Helvetica, sans-serif;
-}
-h2 {
-  color: azure;
-  font-family: 'Times New Roman', Times, serif;
-}
-.blueBox {
   height: 100px;
-  width: 100px;
-  border: 1px solid white;
-  background-color: aqua;
+  width: 100%;
+}
+
+body {
+  background-color:rgb(239, 203, 233);
+}
+
+.title {
+  color: aliceblue;
+  text-align: center;
+  font-size: 27px;
+  font-family: monospace;
+  font-weight: bolder;
+  line-height: 100px;
+}
+/* .author {
+  font-size: 20px;
+  font-family: monospace;
+} */
+
+.grid {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: 20px;
+}
+
+.elden {
+  background-color:lightblue;
+  grid-column:1;
+  grid-row: 1;
+  box-shadow: 20px 20px 50px 10px pink inset;
+  border: 4px black solid;
+}
+
+.elden:hover {
+  box-shadow: 7px 7px 7px rgba(33,33,33,.2);
+}
+
+/* random stuff */
+.cardText {
+  font-family: Marcellus;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(4, 5, 5);
+  font-weight: bold;
+
+  
+}
+.image {
+  width: 100%;
 }
