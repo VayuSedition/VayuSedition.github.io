@@ -120,3 +120,8 @@ body {
 .image {
   width: 100%;
 }
+
+.imageLowQ {
+  width: 100%;
+  border: 1px black solid;
+}
