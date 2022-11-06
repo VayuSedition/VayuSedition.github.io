@@ -48,6 +48,65 @@ body {
   box-shadow: 7px 7px 7px rgba(33,33,33,.2);
 }
 
+.ds3 {
+  background-color:lightblue;
+  grid-column:2;
+  grid-row: 1;
+  box-shadow: 20px 20px 50px 10px pink inset;
+  border: 4px black solid;
+}
+
+.ds3:hover {
+  box-shadow: 7px 7px 7px rgba(33,33,33,.2);
+}
+
+.ff1 {
+  background-color:lightblue;
+  grid-column:3;
+  grid-row: 1;
+  box-shadow: 20px 20px 50px 10px pink inset;
+  border: 4px black solid;
+}
+
+.ff1:hover {
+  box-shadow: 7px 7px 7px rgba(33,33,33,.2);
+}
+
+.ds1 {
+  background-color:lightblue;
+  grid-column:4;
+  grid-row: 1;
+  box-shadow: 20px 20px 50px 10px pink inset;
+  border: 4px black solid;
+}
+
+.ds1:hover {
+  box-shadow: 7px 7px 7px rgba(33,33,33,.2);
+}
+
+.mh4u {
+  background-color:lightblue;
+  grid-column:1;
+  grid-row: 2;
+  box-shadow: 20px 20px 50px 10px pink inset;
+  border: 4px black solid;
+}
+
+.mh4u:hover {
+  box-shadow: 7px 7px 7px rgba(33,33,33,.2);
+}
+
+.mk7 {
+  background-color:lightblue;
+  grid-column:2;
+  grid-row: 2;
+  box-shadow: 20px 20px 50px 10px pink inset;
+  border: 4px black solid;
+}
+
+.mk7:hover {
+  box-shadow: 7px 7px 7px rgba(33,33,33,.2);
+}
 /* random stuff */
 .cardText {
   font-family: Marcellus;
@@ -55,8 +114,8 @@ body {
   font-size: 18px;
   color: rgb(4, 5, 5);
   font-weight: bold;
-
-  
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .image {
   width: 100%;
