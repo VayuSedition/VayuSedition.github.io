@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Scene </title>
+        <style>
+            html, body { margin: 0; padding: 0; }
+
+            body {background-color: black; overflow: hidden; }
+
+            #mainDiv {
+                height: 500px;
+                width: 500px;
+                margin: 200px auto;
+                perspective: 800px;
+            }
+
+            #boxDiv {
+                height: 500px;
+                width: 500px;
+                transform-style: preserve-3d;
+                transform: translateZ(600px);
+            }
+
+            #boxDiv div {
+                position: absolute;
+                height: 500px;
+                width: 500px;
+            }
+
+            #front {
+                transform: translateZ(250px) rotateY(180deg);
+            }
+
+            #back {
+                transform: translateZ(-250px);
+            }
+
+            #left {
+                transform: rotateY(90deg) translateX(-250px);
+                transform-origin: left;
+            }
+
+            #right {
+                transform: rotateY(-90deg) translateX(250px);
+                transform-origin: right;
+            }
+
+            #top {
+                transform: rotateY(-90deg) rotateX(-90deg) translateY(-250px);
+                transform-origin: top;
+            }
+
+            #bottom {
+                transform: rotateX(90deg) translateY(250px);
+                transform-origin: bottom;
+            }
+
+            img {
+                height: 500px;
+                width: 500px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+    <div id="mainDiv">
+        <div id="boxDiv">
+            <div id="front"><img src="textures/penguins (16)/heather_ft.jpg"/></div>
+            <div id="back"><img src="textures/penguins (16)/heather_bk.jpg"/></div>
+            <div id="left"><img src="textures/penguins (16)/heather_lf.jpg"/></div>
+            <div id="right"><img src="textures/penguins (16)/heather_rt.jpg"/></div>
+            <div id="top"><img src="textures/penguins (16)/heather_up.jpg"/></div>
+            <div id="bottom"><img src="textures/penguins (16)/heather_dn.jpg"/></div>
+        </div>
+    </div>
+
+    <script>
+        var world = document.getElementById("boxDiv");
+        var x;
+        var y;
+
+        document.addEventListener('mousemove', function(e) {
+            x = e.clientX;
+            y = e.clientY
+            y = -y;
+            world.style.transform = "translateZ(600px) rotateX("+y+"deg) rotateY("+x+"deg)";
+        });
+    </script>
+    </body>
+</html>

@@ -11,6 +11,13 @@
   width: 100%;
 }
 
+.footer {
+  position:sticky;
+  background-color: black;
+  height: 90px;
+  width: 100%;
+}
+
 body {
   background-color:rgb(239, 203, 233);
 }
@@ -22,6 +29,15 @@ body {
   font-family: monospace;
   font-weight: bolder;
   line-height: 100px;
+}
+.footerLink {
+  color: aliceblue;
+  display: block;
+  text-align: center;
+  line-height: 80px;
+  font-size: 1.4vw;
+  font-family: monospace;
+  font-weight: bolder;
 }
 /* .author {
   font-size: 20px;
