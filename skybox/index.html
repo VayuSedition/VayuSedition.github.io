@@ -93,6 +93,12 @@
             y = -y;
             world.style.transform = "translateZ(600px) rotateX("+y+"deg) rotateY("+x+"deg)";
         });
+        document.addEventListener('touchstart', function(e) {
+            x = e.clientX;
+            y = e.clientY
+            y = -y;
+            world.style.transform = "translateZ(600px) rotateX("+y+"deg) rotateY("+x+"deg)";
+        });
     </script>
     </body>
 </html>
