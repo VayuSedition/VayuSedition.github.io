@@ -147,6 +147,31 @@ body {
 .mgsV:hover {
   box-shadow: 7px 7px 7px rgba(33,33,33,.2);
 }
+
+.ff3 {
+  background-color:lightblue;
+  grid-column:1;
+  grid-row: 3;
+  box-shadow: 20px 20px 50px 10px pink inset;
+  border: 4px black double;
+}
+
+.ff3:hover {
+  box-shadow: 7px 7px 7px rgba(33,33,33,.2);
+}
+
+.reach {
+  background-color:lightblue;
+  grid-column:2;
+  grid-row: 3;
+  box-shadow: 20px 20px 50px 10px pink inset;
+  border: 4px black double;
+}
+
+.reach:hover {
+  box-shadow: 7px 7px 7px rgba(33,33,33,.2);
+}
+
 /* random stuff */
 .cardText {
   font-family: 'Syne Mono';
