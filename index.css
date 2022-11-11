@@ -57,7 +57,7 @@ body {
   grid-column:1;
   grid-row: 1;
   box-shadow: 20px 20px 50px 10px pink inset;
-  border: 4px black solid;
+  border: 4px black double;
 }
 
 .elden:hover {
@@ -69,7 +69,7 @@ body {
   grid-column:2;
   grid-row: 1;
   box-shadow: 20px 20px 50px 10px pink inset;
-  border: 4px black solid;
+  border: 4px black double;
 }
 
 .ds3:hover {
@@ -81,7 +81,7 @@ body {
   grid-column:3;
   grid-row: 1;
   box-shadow: 20px 20px 50px 10px pink inset;
-  border: 4px black solid;
+  border: 4px black double;
 }
 
 .ff1:hover {
@@ -93,7 +93,7 @@ body {
   grid-column:4;
   grid-row: 1;
   box-shadow: 20px 20px 50px 10px pink inset;
-  border: 4px black solid;
+  border: 4px black double;
 }
 
 .ds1:hover {
@@ -105,7 +105,7 @@ body {
   grid-column:1;
   grid-row: 2;
   box-shadow: 20px 20px 50px 10px pink inset;
-  border: 4px black solid;
+  border: 4px black double;
 }
 
 .mh4u:hover {
@@ -117,15 +117,39 @@ body {
   grid-column:2;
   grid-row: 2;
   box-shadow: 20px 20px 50px 10px pink inset;
-  border: 4px black solid;
+  border: 4px black double;
 }
 
 .mk7:hover {
   box-shadow: 7px 7px 7px rgba(33,33,33,.2);
 }
+
+.botw {
+  background-color:lightblue;
+  grid-column:3;
+  grid-row: 2;
+  box-shadow: 20px 20px 50px 10px pink inset;
+  border: 4px black double;
+}
+
+.botw:hover {
+  box-shadow: 7px 7px 7px rgba(33,33,33,.2);
+}
+
+.mgsV {
+  background-color:lightblue;
+  grid-column:4;
+  grid-row: 2;
+  box-shadow: 20px 20px 50px 10px pink inset;
+  border: 4px black double;
+}
+
+.mgsV:hover {
+  box-shadow: 7px 7px 7px rgba(33,33,33,.2);
+}
 /* random stuff */
 .cardText {
-  font-family: Marcellus;
+  font-family: 'Syne Mono';
   text-align: center;
   font-size: 1.2vw;
   color: rgb(4, 5, 5);
